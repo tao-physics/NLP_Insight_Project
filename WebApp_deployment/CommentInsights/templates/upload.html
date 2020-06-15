@@ -1,46 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang='en'>
-<head>
-    <meta charset="UTF-8">
-    <title>upload file</title>
-</head>
-
-<body>
-
-    {% load static %}
-    <img src="{% static 'background/back1.png' %}" alt="background2" width="800" height="200">
-    <div style="background-image: url('{% static 'background/back2.jpg' %}'); background-repeat: no-repeat;">
-
-    <style>
-        div {
-            background-image: url("{% static 'background/back2.jpg' %}");
-            background-repeat: no-repeat;
-        }
-    </style>
-
-    <h1>Welcome to Voice of Employees!</h1>
-
-    <form action="{% url 'app:upload' %}" method="post" enctype='multipart/form-data'>
-        {% csrf_token %}
-
-        <h3>Please select a data file for prediction:</h3>
-        <br>
-        <input type='file' id='prediction' name='file'>
-        <br><br>
-        <input type='submit' value='upload'>
-
-    </form>
-
-    <br><br>
-    <p style="font-size:30px"><a href="{% url 'app:home' %}">home</a></p>
-    <p style="font-size:30px"><a href="{% url 'app:result' %}">check result</a></p>
-
-</body>
-
-</html> -->
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -52,37 +9,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
+
 <body>
 
     {% load static %}
-    <!-- <img src="{% static 'background/back1.png' %}" alt="background2" width="800" height="200">
-    <div style="background-image: url('{% static 'background/back2.jpg' %}'); background-repeat: no-repeat;"> -->
-
-    <!-- <style>
-        div {
-            background-image: url("{% static 'background/back2.jpg' %}");
-            background-repeat: no-repeat;
-        }
-    </style> -->
-
-    <!-- <h1>Welcome to Voice of Employees!</h1>
-
-    <form action="{% url 'app:upload' %}" method="post" enctype='multipart/form-data'>
-        {% csrf_token %}
-
-        <h3>Please select a data file for prediction:</h3>
-        <br>
-        <input type='file' id='prediction' name='file'>
-        <br><br>
-        <input type='submit' value='upload'>
-
-    </form>
-
-    <br><br>
-    <p style="font-size:30px"><a href="{% url 'app:home' %}">home</a></p>
-    <p style="font-size:30px"><a href="{% url 'app:result' %}">check result</a></p> -->
-
-
 
 <div class="jumbotron text-center">
   <h1>Welcome to Voice of Employees!</h1>
@@ -90,29 +20,11 @@
   <h6>Build the best place to work in senior care industry</h6> 
 </div>
   
-<!-- <div class="container text-left">
-    <form action="{% url 'app:upload' %}" method="post" enctype='multipart/form-data'>
-        {% csrf_token %}
 
-        <h3>Please select a data file for prediction:</h3>
-        <br>
-        <input type='file' id='prediction' name='file'>
-        <br><br>
-        <input type='submit' value='upload'>
-
-    </form>
-
-    <br><br>
-    <p style="font-size:30px"><a href="{% url 'app:home' %}">home</a></p>
-    <p style="font-size:30px"><a href="{% url 'app:result' %}">check result</a></p>
-</div> -->
 
 <div class="container">
   <div class="row">
     <div class="col-sm-6">
-      <!-- <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p> -->
       <img src="{% static 'background/back2.jpg' %}" class="img-fluid" alt="background2" width="540" height="270">
     </div>
     <div class="col-sm-6">
@@ -128,16 +40,11 @@
         </form>
     
         <br><br>
-        <!-- <p style="font-size:30px"><a href="{% url 'app:home' %}">home</a></p>
-        <p style="font-size:30px"><a href="{% url 'app:result' %}">check result</a></p> -->
+
         <a href="{% url 'app:result' %}" class="btn btn-info" role="button">Check result</a>
     </div>
 
-    <!-- <div class="col-sm-2">
-      <h3>Column 3</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div> -->
+
   </div>
 </div>
 

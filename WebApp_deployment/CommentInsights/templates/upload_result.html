@@ -1,36 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang='en'>
-<head>
-    <meta charset="UTF-8">
-    <title>upload file</title>
-</head>
-
-<body>
-
-<h3>Upload successfully!</h3>
-
-<p>Predictions will show up soon!</p>
-
-<a href="/static/download_result/topic_sentiment_done.csv" download>File with all details!</a>
-<br><br>
-<a href="/static/download_result/topic_sentiment_clean.csv" download>File with essential info!</a>
-<br><br>
-<a href="/static/download_result/topic_sentiment_hist.jpg" download>Graph!</a>
-<br><br>
-
-<div>
-{% load static %}
-<img src="{% static 'download_result/topic_sentiment_hist.jpg' %}" alt="hist_plot" width="850" height="450">
-</div>
-
-<br><br>
-<a href="{% url 'app:upload' %}">Go back</a>
-
-</body>
-
-</html> -->
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,25 +12,6 @@
 <body>
 
 
-<!-- <h3>Comments have been processed successfully!</h3>
-
-<p>Predictions will show up soon!</p>
-
-<a href="/static/download_result/topic_sentiment_done.csv" download>File with all details!</a>
-<br><br>
-<a href="/static/download_result/topic_sentiment_clean.csv" download>File with essential info!</a>
-<br><br>
-<a href="/static/download_result/topic_sentiment_hist.jpg" download>Graph!</a>
-<br><br>
-
-<div>
-{% load static %}
-<img src="{% static 'download_result/topic_sentiment_hist.jpg' %}" alt="hist_plot" width="850" height="450">
-</div>
-
-<br><br>
-<a href="{% url 'app:upload' %}">Go back</a> -->
-    
 
 
 <div class="jumbotron text-center">
@@ -124,8 +72,6 @@
     <img src="{% static 'download_result/topic_sentiment_wc.jpg' %}" class="img-fluid" alt="wc_plot" width="1000" height="520">
 </div>
     
-<!-- <br><br>
-<a href="{% url 'app:upload' %}">Go back</a> -->
 
 </body>
 </html>
