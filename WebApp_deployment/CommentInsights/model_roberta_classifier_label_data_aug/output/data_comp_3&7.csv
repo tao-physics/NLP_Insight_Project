@@ -1,0 +1,40 @@
+,Unnamed: 0,Participant ID,Question ID,Comment,Label,Sentiment,Label_encoded,Sentiment_encoded,label_pred,label_2ndpred,prob_1st,prob_2nd
+51,1536,93171,One Change,most  freindly,Co-Workers/Teamwork,Negative,3,0,7,3,0.3418567180633545,0.1997748166322708
+246,1079,74943,Unique / Unusual,Loveing and caring place to work ,Co-Workers/Teamwork,No answer/Nothing,3,1,7,3,0.6825245022773743,0.19937975704669952
+476,1511,92873,One Change,"Honestly there is nothing. My nursing background is so different from Skilled/Long Term/Memory care and it has been an adjustment. It has been an emotional time to learn to care for the aging. Everyone has been so helpful, friendly, encouraging. I would just keep encouraging this kind of environment.",Co-Workers/Teamwork,Positive,3,2,7,3,0.6105949282646179,0.3298376500606537
+569,811,57389,Unique / Unusual,I would say it is a clean place to work compared to other retirement homes I have visited. The staff here is pretty friendly for the most part. ,Co-Workers/Teamwork,Positive,3,2,7,3,0.9248183369636536,0.05486118793487549
+709,1650,93768,Unique / Unusual,Itâ€™s a very caring environment very respectable ,Co-Workers/Teamwork,Positive,3,2,7,3,0.7467578649520874,0.193182036280632
+726,982,74432,Unique / Unusual,Everyone cares about everyone. Residents and staff included. ,Co-Workers/Teamwork,Positive,3,2,7,3,0.5607287883758545,0.4081805348396301
+741,1559,93337,Unique / Unusual,core values and mission are practiced ,Co-Workers/Teamwork,Positive,3,2,7,9,0.4657845795154572,0.3482724726200104
+756,1410,91623,One Change,Somehow bridge the gap between the Communities to interact together with Events and Trips.  Have a Wesley Woods Event where all the Communities came together.  Most Communities are stand alone with their Events.,Co-Workers/Teamwork,Negative,3,0,7,3,0.43785214424133295,0.24801743030548096
+770,1488,92749,Unique / Unusual,Kind caring and dedicated to the Residents ,Co-Workers/Teamwork,Positive,3,2,7,9,0.9794557094573976,0.008761090226471424
+813,1385,89145,Unique / Unusual,Being mission based,Co-Workers/Teamwork,Positive,3,2,7,9,0.6053356528282166,0.2701573371887207
+850,1084,74985,Unique / Unusual,Good moral ,Co-Workers/Teamwork,Positive,3,2,7,9,0.471499890089035,0.2614223659038544
+859,1487,92724,Unique / Unusual,Being a faith based organization is the foundational key that  makes the Village At Orchard Ridge a great place to work.,Co-Workers/Teamwork,Positive,3,2,7,3,0.4502776563167572,0.3886475563049317
+977,789,57032,Unique / Unusual,"Ethical, concern for individual coworkers who need help, charitable
+",Co-Workers/Teamwork,Positive,3,2,7,3,0.41336163878440857,0.32803988456726074
+992,1242,79738,Unique / Unusual,Most works as a team for the best of the residents ,Co-Workers/Teamwork,Positive,3,2,7,3,0.5835767984390259,0.3911859691143036
+1001,1649,93765,Unique / Unusual,A good portion of the staff is always willing to go above and beyond to help out co-workers or our residents. I always see my co workers doing whatever they can to help them out. The main reason I like what I'm doing is because of our residents. Most of them are kind and compassionate and brighten your day. They truly are amazing. ,Co-Workers/Teamwork,Positive,3,2,7,3,0.7935541272163391,0.17978091537952426
+1002,1454,92154,Unique / Unusual,The clinicians/therapists I work with make it a great place to work. Not management. The therapists that care and try and go the extra mile for their patients are the ones who are special but yet they are underpaid for the work they do and often go unrecognized. ,Co-Workers/Teamwork,Positive,3,2,7,9,0.6268860697746277,0.2522103786468506
+1167,805,57357,Unique / Unusual,"Coworkers genuinely care about residents, but they also care very much about one another and work together very closely as a team!",Co-Workers/Teamwork,Positive,3,2,7,3,0.6511387228965759,0.324348658323288
+1182,1049,74762,Unique / Unusual,"Our HWD is an amazing, caring person.  She not only cares about our residents and their families,  she cares about her coworkers.  She's always willing to lend a helping hand. ",Co-Workers/Teamwork,Positive,3,2,7,9,0.4880026876926422,0.3227294683456421
+1192,1412,91646,Unique / Unusual,Itâ€™s a company run by therapists ,Co-Workers/Teamwork,Positive,3,2,7,9,0.8193914294242859,0.11525612324476242
+1236,864,57710,Unique / Unusual,coworkers are here for the resident and they are like family to us,Co-Workers/Teamwork,Positive,3,2,7,3,0.8764247894287109,0.10942912846803664
+1270,847,57601,Unique / Unusual,I have worked many places and this is the one of the few that i am very proud to be apart of the team. Yes we are not perfect but i absolutely feel that everyone tries their best to take care of the residents to ensure they are receiving the best quality of life. Team work and the compassion here is awesome ,Co-Workers/Teamwork,Positive,3,2,7,3,0.8590576052665709,0.12616868317127228
+1371,1665,94308,Unique / Unusual,"Everybody here is very welcoming, they truly care about the Residents and Staff.",Co-Workers/Teamwork,Positive,3,2,7,3,0.6645523309707642,0.30722108483314514
+1389,1323,87116,Unique / Unusual,The people here both residents and staff ,Co-Workers/Teamwork,Positive,3,2,7,3,0.8806158304214478,0.10322600603103638
+1397,1032,74673,Unique / Unusual,Their values ,Co-Workers/Teamwork,Positive,3,2,7,3,0.3619511723518372,0.31797316670417786
+1405,1535,93162,Unique / Unusual,it is welcoming and inclusive.  there is also a faith identity/aspect which is very nice.,Co-Workers/Teamwork,Positive,3,2,7,3,0.5511484742164612,0.36057671904563904
+1406,931,74172,Unique / Unusual,"Overall, Constellation Home care has great morale.",Co-Workers/Teamwork,Positive,3,2,7,3,0.4608659446239472,0.39861711859703053
+1418,964,74324,Unique / Unusual,"The unique part of Benton is the amazing staff. The compassion and caring shown daily, is something you don't see everywhere. We care for our residents in their home/ building, but you feel like your at home too. ",Co-Workers/Teamwork,Positive,3,2,7,3,0.7405927181243896,0.23885853588581085
+1491,1018,74616,Unique / Unusual,Longevity of employees (trained by people who have been here 15+ years) is remarkable. ,Co-Workers/Teamwork,Positive,3,2,7,3,0.35775434970855713,0.18747711181640625
+1494,809,57368,One Change,quit having to go to different buildings.,Co-Workers/Teamwork,Negative,3,0,7,11,0.4813492894172669,0.17317602038383484
+1498,893,71634,Unique / Unusual,"This is a place that you can truly share your faith freely.
+
+We truly care about each other here in the workplace and in our community as well.",Co-Workers/Teamwork,Positive,3,2,7,3,0.473112165927887,0.4288637638092041
+1530,1092,75051,Unique / Unusual,The staff is great! Management is awesome! The residents are great!,Co-Workers/Teamwork,Positive,3,2,7,3,0.7794936299324036,0.16420118510723114
+1564,1119,75193,Unique / Unusual,The staff is like family with the residents ,Co-Workers/Teamwork,Positive,3,2,7,3,0.7546274065971375,0.228112667798996
+1656,1514,93044,Unique / Unusual,"beechwood  Home makes me feel like family, and a reason to be here.  I am always treated with respect. In my opinion it is a great place to work.",Co-Workers/Teamwork,Positive,3,2,7,3,0.4738335013389587,0.47270467877388
+1667,1272,80373,Unique / Unusual,The residents and staff they are fun to work with! ,Co-Workers/Teamwork,Positive,3,2,7,3,0.9722614884376526,0.017310820519924164
+1719,693,56384,One Change,I personally would eliminate certain co workers who do not make residents feel comfortable and cared for.,Co-Workers/Teamwork,Negative,3,0,7,12,0.4950215220451355,0.314788430929184
+1745,1468,92404,Unique / Unusual,"For me personally, the faith-based aspect is very gratifying and reassuring. ",Co-Workers/Teamwork,Positive,3,2,7,3,0.44379299879074097,0.43884795904159546

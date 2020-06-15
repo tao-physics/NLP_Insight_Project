@@ -1,0 +1,131 @@
+<!-- <!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset="UTF-8">
+    <title>upload file</title>
+</head>
+
+<body>
+
+<h3>Upload successfully!</h3>
+
+<p>Predictions will show up soon!</p>
+
+<a href="/static/download_result/topic_sentiment_done.csv" download>File with all details!</a>
+<br><br>
+<a href="/static/download_result/topic_sentiment_clean.csv" download>File with essential info!</a>
+<br><br>
+<a href="/static/download_result/topic_sentiment_hist.jpg" download>Graph!</a>
+<br><br>
+
+<div>
+{% load static %}
+<img src="{% static 'download_result/topic_sentiment_hist.jpg' %}" alt="hist_plot" width="850" height="450">
+</div>
+
+<br><br>
+<a href="{% url 'app:upload' %}">Go back</a>
+
+</body>
+
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+<!-- <h3>Comments have been processed successfully!</h3>
+
+<p>Predictions will show up soon!</p>
+
+<a href="/static/download_result/topic_sentiment_done.csv" download>File with all details!</a>
+<br><br>
+<a href="/static/download_result/topic_sentiment_clean.csv" download>File with essential info!</a>
+<br><br>
+<a href="/static/download_result/topic_sentiment_hist.jpg" download>Graph!</a>
+<br><br>
+
+<div>
+{% load static %}
+<img src="{% static 'download_result/topic_sentiment_hist.jpg' %}" alt="hist_plot" width="850" height="450">
+</div>
+
+<br><br>
+<a href="{% url 'app:upload' %}">Go back</a> -->
+    
+
+
+<div class="jumbotron text-center">
+  <h1>Comments have been processed successfully!</h1>
+  <br>
+  <h5>Results are ready for download</h5> 
+  <div class='text-right'><a href="{% url 'app:upload' %}" class="btn btn-info" role="button">Go back</a></div>
+  <!-- <a href="{% url 'app:upload' %}" class="btn btn-info" role="button">Go back</a> -->
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 text-center">
+        <h6>Files</h6>
+        <a href="/static/download_result/topic_sentiment_done.csv" download>File with all details</a> <br>
+        <a href="/static/download_result/topic_sentiment_clean.csv" download>File with essential info</a>
+    </div>
+    <!-- <div class="col-sm-6 text-center">
+        <a href="/static/download_result/topic_sentiment_clean.csv" download>File with essential info</a>
+    </div> -->
+    <div class="col-sm-6 text-center">  
+      <h6>Graphs</h6>
+      <a href="/static/download_result/topic_sentiment_hist.jpg" download>Histogram</a> <br>
+      <a href="/static/download_result/topic_sentiment_wc.jpg" download>Word cloud</a>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+
+<div class='text-center'><h4>Sentiment distribution in each topic</h4></div>
+
+<br>
+{% load static %}
+
+<div class='text-center'>
+    <img src="{% static 'download_result/topic_sentiment_hist.jpg' %}" class="img-fluid" alt="hist_plot" width="850" height="450">
+</div>
+
+<br><br>
+
+<div class='text-center'><h4>Word cloud for each topic</h4></div>
+
+<br>
+
+<div class='text-center'>
+    <img src="{% static 'download_result/comment_topic_words_wTitle.jpg' %}" class="img-fluid" alt="wc_plot_demo" width="1000" height="520">
+</div>
+
+<br><br>
+
+<div class='text-center'><h4>Word cloud for each topic</h4></div>
+
+<br>
+
+<div class='text-center'>
+    <img src="{% static 'download_result/topic_sentiment_wc.jpg' %}" class="img-fluid" alt="wc_plot" width="1000" height="520">
+</div>
+    
+<!-- <br><br>
+<a href="{% url 'app:upload' %}">Go back</a> -->
+
+</body>
+</html>
