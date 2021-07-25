@@ -148,13 +148,13 @@ python manage.py runserver
 ```
 
 ## Key Dependencies
-+ python=3.6.9
-+ Django=3.0.2
-+ nltk=3.5
-+ scikit-learn=0.23.1
-+ seaborn=0.10.1
-+ tokenizers=0.7.0
-+ torch=1.5.0
-+ transformers=2.10.0
-+ wordcloud=1.7.0
++ python==3.6.9
++ Django==3.0.2
++ nltk==3.5
++ scikit-learn==0.23.1
++ seaborn==0.10.1
++ tokenizers==0.7.0
++ torch==1.5.0
++ transformers==2.10.0
++ wordcloud==1.7.0
 
