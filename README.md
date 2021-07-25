@@ -149,7 +149,7 @@ python manage.py runserver
 
 ## Key Dependencies
 + python=3.6.9
-+ django=3.0.2
++ Django=3.0.2
 + nltk=3.5
 + scikit-learn=0.23.1
 + seaborn=0.10.1
