@@ -1,5 +1,3 @@
-
-
 <h1 align="center">NLP Project: Voice of Employees</h1>
 <h2 align="center">Automating post-survey processing in <b>senior care</b> industry</h2>
 
@@ -76,6 +74,7 @@ There are three parts on the result page:
 ## Slides
 Reference: [Link to Slides](https://docs.google.com/presentation/d/1CjvxhDRRzBnTV_ujIPk1EqBLOTWKWAgrBcGohVCkXOg/edit?usp=sharing)
 
+---
 
 ## About the code
 + The **models_code** folder contains files to train and validate the model.
@@ -158,3 +157,4 @@ python manage.py runserver
 + torch=1.5.0
 + transformers=2.10.0
 + wordcloud=1.7.0
+
