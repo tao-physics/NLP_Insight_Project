@@ -15,8 +15,11 @@ def upload_file(request):
         print(type(doc))
 
         with open('./static/data/for_prediction.csv', 'wb') as save_file:
-            for part in doc.chunks():
-                save_file.write(part)
-                save_file.flush()
+            try:
+                for part in doc.chunks():
+                    save_file.write(part)
+                    save_file.flush()
+            except:
+                return render(request, 'upload.html')
 
-            return render(request, 'upload_result.html')
+        return render(request, 'upload_result.html')
