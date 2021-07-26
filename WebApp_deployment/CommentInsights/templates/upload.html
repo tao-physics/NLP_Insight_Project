@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    {% load static %}
+
+<div class="jumbotron text-center">
+  <h1>Welcome to Voice of Employees!</h1>
+  <br>
+  <h6>Build the best place to work in senior care industry</h6> 
+</div>
+  
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <img src="{% static 'background/back2.jpg' %}" class="img-fluid" alt="background2" width="540" height="270">
+    </div>
+    <div class="col-sm-6">
+        <form action="{% url 'app:upload' %}" method="post" enctype='multipart/form-data'>
+            {% csrf_token %}
+    
+            <h4>Please select a comment file for prediction:</h4>
+            <br>
+            <input type='file' id='prediction' name='file'>
+            <br><br>
+            <input type='submit' value='upload'>
+    
+        </form>
+    
+        <br><br>
+
+        <a href="{% url 'app:result' %}" class="btn btn-info" role="button">Check result</a>
+    </div>
+
+
+  </div>
+</div>
+
+<br>
+<div class='text-center'><p>Note: please use .csv file and name the comment column as "Comment".</p></div>
+
+</body>
+</html>

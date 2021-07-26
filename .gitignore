@@ -1,0 +1,17 @@
+**/.vscode
+.DS_Store
+**/.ipynb_checkpoints
+*.csv
+*.ipynb
+
+models_code/bert_cls
+
+**/__pycache__
+
+db.sqlite3
+
+# model_roberta_classifier_label_data_aug/input
+# model_roberta_classifier_label_data_aug/output
+# model_roberta_classifier_label_data_aug/src
+
+
